@@ -12,7 +12,7 @@ const middlewares = [
   helmet(),
   morgan(CONFIG.DEFAULT_MORGAN_FORMAT),
   bodyParser.json(),
-  cors(CONFIG.CORS_OPTIONS),
+  cors(),
   bodyParser.urlencoded({ extended: true }),
 ];
 
