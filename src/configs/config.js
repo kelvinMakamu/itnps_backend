@@ -14,10 +14,7 @@ module.exports = {
     },
     COLS_USER: 'id first_name last_name email username level',
     CORS_OPTIONS: {
-        origin: 'https://kelvinmakamu.github.io/itnps_frontend' || 'http://localhost:4200',
-        methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-        preflightContinue: false,
-        optionsSuccessStatus: 204
+        origin: '*'
     },
     ALLOWED_LEVELS: [0,1,2],
     SALT_ROUNDS: 12,
