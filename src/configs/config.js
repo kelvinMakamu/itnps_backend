@@ -13,10 +13,10 @@ module.exports = {
         family: 4 // Use IPv4, skip trying IPv6
     },
     COLS_USER: 'id first_name last_name email username level',
-    // CORS_OPTIONS: {
-    //     origin: '*',
-    //     methods: "GET,HEAD,PUT,PATCH,POST,DELETE"
-    // },
+    CORS_OPTIONS: {
+        origin: '*',
+        methods: "GET,HEAD,PUT,PATCH,POST,DELETE"
+    },
     ALLOWED_LEVELS: [0,1,2],
     SALT_ROUNDS: 12,
     SERVER_PORT: process.env.PORT || 8185,
